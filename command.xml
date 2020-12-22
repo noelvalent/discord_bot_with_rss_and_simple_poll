@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<commands>
+    <setting>
+        <prefix>!</prefix>
+        <rss>
+            <update_time>1800</update_time>
+            <description>
+                초단위로 적을 것 (예: 10일 경우 10)
+            </description>
+        </rss>
+        <discord_token></discord_token>
+        <db_name>rss.db</db_name>
+    </setting>
+    <poll>
+        <command>poll</command>
+        <description>[prefix]poll "질문" "답변1" "답변2" ...</description>
+    </poll>
+    <rss-add>
+        <command>rss-add</command>
+        <description>[prefix]rss-add 이름 rss주소</description>
+    </rss-add>
+    <rss-del>
+        <command>rss-del</command>
+        <description>[prefix]rss-del is // 사용전에 리스트를 확인 할 것</description>
+    </rss-del>
+    <rss-list>
+        <command>rss-list</command>
+        <description>[prefix]rss-list</description>
+    </rss-list>
+    <rss-update>
+        <command>rss-update</command>
+        <description>[prefix]rss-update</description>
+    </rss-update>
+</commands>
